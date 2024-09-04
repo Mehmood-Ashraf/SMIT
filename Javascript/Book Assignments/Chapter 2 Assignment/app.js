@@ -9,11 +9,12 @@ var userName;
 var myName = "Mehmood Fazlani";
 
 //Question # 3
-var message  = "Hello World";
+var message;
+message = "Hello World";
 alert(message);
 
 
-//Student Bio Data
+/* Question # 4 Student Bio Data */
 var fullName = "John Doe";
 var age = "15 years old";
 var course = "Certified Mobile Application Development";
@@ -32,7 +33,7 @@ alert("My email address is:" +" "+ email);
 
 //Question # 7
 var book = "A smarter way to learn Javascript";
-alert("I am trying to learn from a book" +" "+ book);
+alert("I am trying to learn from the book" +" "+ book);
 
 //Question # 8
 document.write("Yah! I can write HTML content through Javascript");
