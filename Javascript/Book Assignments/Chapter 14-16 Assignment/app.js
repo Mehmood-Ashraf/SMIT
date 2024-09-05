@@ -16,3 +16,5 @@ var isStudetns = [true, false];
 
 //Mixed Array
 var mixedArray = ["Mehmood", 4, 5, true, false];
+
+var eduQualification = ["HSC","SSC", "BCS", "BS", "B.COM", "MS", "M.Phil", "PhD"];
