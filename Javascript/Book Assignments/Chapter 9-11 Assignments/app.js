@@ -1,91 +1,98 @@
 
-// // //Chapter 9-11 Assignments
-// // //User input & COnditional Statement
+//Chapter 9-11 Assignments
+//User input & Conditional Statement
 
 
-// // //Question 1
-// // // var cityName = prompt("Enter your city name!");
+//Question 1
+// making variable for take input from user
+// var cityName = prompt("Enter your city name!");
 
-// // // if(cityName === "Karachi"){
-// // //     alert("Welcome to city of lights")
-// // // };
-
-// // //Question 2
-// // // var gender = prompt("Could you please share your gender identity?");
-
-// // // if(gender === "Male"){
-// // //     alert("Good Morning Sir.")
-// // // }else{
-// // //     alert("Good Morning Ma'am")
-// // // };
-
-// // //Question 3
-
-// // // var signalColor = prompt("Enter the color of the traffic signal!");
-
-// // // if(signalColor === "Red"){
-// // //     alert("Must Stop");
-// // // }else if(signalColor === "Yellow"){
-// // //     alert("Ready to move");
-// // // }else if(signalColor === "Green"){
-// // //     alert("Move Now");
-// // // };
-
-// // //Question 4
-
-// // // var remainingFuel = prompt("Enter the remaining fuel in your car (in liters):");
-
-// // // if (remainingFuel <= "0.25"){
-// // //     alert("Please refill the fuel in your car")
-// // // };
-
-// // //Question 5
-
-// // var a = 4;
-// // if(++a === 5){
-// //     alert("given condition for variable a is true");
-// // };
-
-// // var b = 82;
-// // if(b++ === 83){
-// //     alert("given condition for variable b is true");
-// // };
-
-// // var c =12;
-// // if(c++ === 13){
-// //     alert("Condition 1 is true");
-// // }
-// // if( c === 13){
-// //     alert("Condition 2 is true");
-// // };
-// // if(++c < 14){
-// //     alert("Condition 3 is true")
-// // };
-// // if(c === 14){
-// //     alert("Conditiion 4 is true");
-// // };
-
-// // var materialCost = 20000;
-// // var laborCost = 2000;
-// // var totalCost = materialCost + laborCost;
-
-// // if (totalCost === materialCost + laborCost){
-// //     alert("The cost equals")
-// // }
-
-// // if(true){
-// //     alert("True")
-// // }
-// // if(false){
-// //     alert("False")
-// // };
-
-// // if("car" < "cat"){
-// //     alert("car is smaller than cat")
-// // };
+// if(cityName === "Karachi"){
+//     alert("Welcome to city of lights")
+// };
 
 
-// //Question 6
+//Question 2
+//Making variable for take gender identity from user
+
+// var gender = prompt("Could you please share your gender identity?");
+
+// if(gender === "Male"){
+//     alert("Good Morning Sir.")
+// };
+// if(gender === "female"){
+//     alert("Good Morning Ma'am")
+// };
+
+
+//Question 3
+
+// var signalColor = prompt("Enter the color of the traffic signal!");
+
+// if(signalColor === "Red"){
+//     alert("Must Stop");
+// }else if(signalColor === "Yellow"){
+//     alert("Ready to move");
+// }else if(signalColor === "Green"){
+//     alert("Move Now");
+// };
+
+//Question 4
+
+// var remainingFuel = prompt("Enter the remaining fuel in your car (in liters):");
+
+// if (remainingFuel <= "0.25"){
+//     alert("Please refill the fuel in your car")
+// };
+
+//Question 5
+
+// var a = 4;
+// if(++a === 5){
+//     alert("given condition for variable a is true"); //condition is true
+// };
+
+// var b = 82;
+// if(b++ === 83){
+//     alert("given condition for variable b is true"); //condition is false
+// };
+
+// var c =12;
+// if(c++ === 13){
+//     alert("Condition 1 is true"); //Condition is false
+// }
+// if( c === 13){
+//     alert("Condition 2 is true"); //now c  is 13 condition is true
+// };
+// if(++c < 14){
+//     alert("Condition 3 is true") //Condition is false c is not greater than 14
+// };
+// if(c === 14){
+//     alert("Condition 4 is true"); //now value of c is 14 condition is true 
+// };
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+
+// if (totalCost === materialCost + laborCost){
+//     alert("The cost equals")
+// }
+
+// if(true){
+//     alert("True");
+// }
+// if(false){
+//     alert("False");
+// }
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat")
+// };
+
+
+//Question 6
 
 // var obtainedMarks = prompt("Enter obtained marks in three subjects");
 // var totalMarks = prompt("Enter total marks");
@@ -98,7 +105,7 @@
 // var remarksB = "You need to Improve";
 // var remarksFail = "Sorry";
 
-// document.write("<b>Marks Sheet</b><br>");
+// document.write("<h1>Marks Sheet</h1><br>");
 // document.write(`<br>Total Marks : ${totalMarks}<br>`);
 // document.write(`Marks Obtained : ${obtainedMarks}<br>`);
 // document.write(`Percentage : ${percentage}% <br>`);
@@ -176,32 +183,32 @@
 
 //Question 11
 
-var firstNum = Number(prompt("Enter First Number"));
+// var firstNum = Number(prompt("Enter First Number"));
 
-var operator = prompt("Select Operator(+, -, *, /, %)");
+// var operator = prompt("Select Operator(+, -, *, /, %)");
 
-var secondNum = Number(prompt("Enter Second Number"));
+// var secondNum = Number(prompt("Enter Second Number"));
 
-var result;
+// var result;
 
 
-if(operator === "+"){
-    result = firstNum + secondNum;
-};
+// if(operator === "+"){
+//     result = firstNum + secondNum;
+// };
 
-if(operator === "-"){
-    result = firstNum - secondNum;
-};
+// if(operator === "-"){
+//     result = firstNum - secondNum;
+// };
 
-if(operator === "*"){
-    result = firstNum * secondNum;
-};
+// if(operator === "*"){
+//     result = firstNum * secondNum;
+// };
 
-if(operator === "/"){
-    result = firstNum / secondNum;
-}
-if(operator === "%"){
-    result = firstNum / secondNum * 100;
-}
+// if(operator === "/"){
+//     result = firstNum / secondNum;
+// }
+// if(operator === "%"){
+//     result = firstNum / secondNum * 100;
+// }
 
-alert(`The result of ${firstNum} ${operator} ${secondNum} = ${result}`);
+// alert(`The result of ${firstNum} ${operator} ${secondNum} = ${result}`);
