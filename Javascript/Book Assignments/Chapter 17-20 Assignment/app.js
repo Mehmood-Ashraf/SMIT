@@ -89,9 +89,8 @@
 //         break;
 //     }
 // }
-// if(userInput != a[i])[
-//     document.write(`We are sorry. ${userInput} is not available in our bakery.`)
-// ];
+// if(userInput != a[i]){
+// };
 
 
 // Question # 8
