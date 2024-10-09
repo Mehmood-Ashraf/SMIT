@@ -113,7 +113,6 @@
 
 
 // Question # 15
-// var userInput = "Mehmood";
 // var userInput = prompt(`Enter your password`);
 // if(userInput.length < 6){
 //     document.write(`Entered Password: ${userInput} <br>Password length should be minimun 6 letters Please enter a valid password.`)
@@ -122,23 +121,21 @@
 // }else{
 //     alert(`Correct Password!`)
 // }
-// console.log(userInput[1]);
-
 
 
 
 
 // Question # 16
-var university = "University of karachi";
+// var university = "University of karachi";
 
 // Convert the string to an array using the split method
-var universityArray = university.split('');
+// var universityArray = university.split('');
 
 // Display the elements of the array in the browser
-document.write("Elements of the array:<br>");
-for (var i = 0; i < universityArray.length; i++) {
-    document.write(universityArray[i] + "<br>");
-}
+// document.write("Elements of the array:<br>");
+// for (var i = 0; i < universityArray.length; i++) {
+//     document.write(universityArray[i] + "<br>");
+// }
 
 
 
