@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#image{
+    width: 0px;
+}
